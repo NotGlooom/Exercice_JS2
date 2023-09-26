@@ -17,6 +17,10 @@ function addpomme(){
     document.getElementById("poidsPommes").innerHTML = panier.pommes * 10;
     document.getElementById("prixPommes").innerHTML = panier.pommes * 13.50;
 
+    //Modifier le total
+    document.getElementById("qteTotal").innerHTML = panier.pommes + panier.poires + panier.prunes;
+    document.getElementById("poidsTotal").innerHTML = panier.pommes * 10 + panier.poires * 12 + panier.prunes * 15;
+    document.getElementById("prixTotal").innerHTML = panier.pommes * 13.50 + panier.poires * 20.0 +  panier.prunes * 22.0;
 }
 
 //Bouton ajouter une poire
@@ -27,6 +31,10 @@ function addpoire(){
     document.getElementById("poidsPoires").innerHTML = panier.poires * 12;
     document.getElementById("prixPoires").innerHTML = panier.poires * 20.0;
 
+    //Modifier le total
+    document.getElementById("qteTotal").innerHTML = panier.pommes + panier.poires + panier.prunes;
+    document.getElementById("poidsTotal").innerHTML = panier.pommes * 10 + panier.poires * 12 + panier.prunes * 15;
+    document.getElementById("prixTotal").innerHTML = panier.pommes * 13.50 + panier.poires * 20.0 +  panier.prunes * 22.0;
 }
 
 //Bouton ajouter une prune
@@ -37,4 +45,8 @@ function addprune(){
     document.getElementById("poidsPrunes").innerHTML = panier.prunes * 15;
     document.getElementById("prixPrunes").innerHTML = panier.prunes * 22.0;
 
+    //Modifier le total
+    document.getElementById("qteTotal").innerHTML = panier.pommes + panier.poires + panier.prunes;
+    document.getElementById("poidsTotal").innerHTML = panier.pommes * 10 + panier.poires * 12 + panier.prunes * 15;
+    document.getElementById("prixTotal").innerHTML = panier.pommes * 13.50 + panier.poires * 20.0 +  panier.prunes * 22.0;
 }
